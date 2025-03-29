@@ -20,11 +20,11 @@
 
         layer_0 {
             bindings = <
-&none      &none     &none     &none      &none      &none                                     &none      &none  &none      &none    &none        &none
-&kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T                                     &kp Y      &kp U  &kp I      &kp O    &kp P        &kp BSLH
-&kp LCTRL  &kp A     &kp S     &kp D      &kp F      &kp G                                     &kp H      &kp J  &kp K      &kp L    &kp SEMI     &kp APOS
-&kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B      &none         &none            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH     &kp MINUS
-&kp ESC    &kp LGUI  &kp LALT  &kp SPACE  &mkp LCLK  &mkp RCLK  &lt 2 DELETE  &lt 3 BACKSPACE  &kp ENTER  &none  &none      &none    &bootloader  &kp EQUAL
+&none      &none     &none     &none      &none      &none                                     &none      &none  &none      &none    &none     &none
+&kp TAB    &kp Q     &kp W     &kp E      &kp R      &kp T                                     &kp Y      &kp U  &kp I      &kp O    &kp P     &kp BSLH
+&kp LCTRL  &kp A     &kp S     &kp D      &kp F      &kp G                                     &kp H      &kp J  &kp K      &kp L    &kp SEMI  &kp APOS
+&kp LSHFT  &kp Z     &kp X     &kp C      &kp V      &kp B      &none         &none            &kp N      &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp MINUS
+&kp ESC    &kp LGUI  &kp LALT  &kp SPACE  &mkp LCLK  &mkp RCLK  &lt 2 DELETE  &lt 3 BACKSPACE  &kp ENTER  &none  &none      &none    &none     &kp EQUAL
             >;
         };
 
@@ -40,31 +40,31 @@
 
         layer_2 {
             bindings = <
-&trans  &trans            &trans            &trans      &trans      &trans                      &trans          &trans         &trans            &trans             &trans         &trans
-&trans  &kp LS(NUMBER_1)  &kp LS(NUMBER_2)  &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                  &kp LS(N6)      &kp LS(N7)     &kp LS(N8)        &kp LS(N9)         &kp LS(N0)     &trans
-&trans  &kp N1            &kp N2            &kp N3      &kp N4      &kp N5                      &kp LEFT_BRACE  &kp MINUS      &kp EQUAL         &kp RIGHT_BRACE    &kp COLON      &trans
-&trans  &kp N6            &kp N7            &kp N8      &kp N9      &kp N0      &trans  &trans  &kp LS(MINUS)   &kp LS(EQUAL)  &kp LEFT_BRACKET  &kp RIGHT_BRACKET  &kp BACKSLASH  &trans
-&trans  &trans            &trans            &trans      &trans      &trans      &trans  &trans  &kp TAB         &kp DEL        &trans            &trans             &trans         &trans
+&trans                &trans      &trans        &trans      &trans      &trans                               &trans            &trans      &trans      &trans               &trans      &trans
+&kp LEFT_BRACKET      &kp N1      &kp NUMBER_2  &kp N3      &kp N4      &kp N5                               &kp N6            &kp N7      &kp N8      &kp N9               &kp N0      &kp RIGHT_BRACKET
+&kp LS(LEFT_BRACKET)  &kp LS(N1)  &kp LS(N2)    &kp LS(N3)  &kp LS(N4)  &kp LS(N5)                           &kp LS(NUMBER_6)  &kp LS(N7)  &kp LS(N8)  &kp LS(RIGHT_BRACE)  &kp LS(N0)  &kp LS(RIGHT_BRACKET)
+&mkp MCLK             &kp F1      &kp F2        &kp F3      &kp F4      &kp F5      &trans  &trans           &kp F6            &kp F7      &kp F8      &kp F9               &kp F10     &kp F11
+&kp GRAVE             &trans      &trans        &trans      &trans      &trans      &trans  &lt 4 BACKSPACE  &trans            &trans      &trans      &trans               &trans      &kp LS(GRAVE)
             >;
         };
 
         layer_3 {
             bindings = <
-&trans  &trans   &trans   &trans        &trans        &trans                      &trans            &trans     &trans         &trans     &trans      &trans
-&trans  &kp F1   &kp F2   &kp F3        &kp F4        &kp F5                      &kp HOME          &kp PG_UP  &kp PAGE_DOWN  &kp END    &kp ESCAPE  &trans
-&trans  &kp F6   &kp F7   &kp F8        &kp F9        &kp F10                     &kp LEFT          &kp DOWN   &kp UP_ARROW   &kp RIGHT  &kp TAB     &trans
-&trans  &kp F11  &kp F12  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &kp SINGLE_QUOTE  &kp DQT    &kp GRAVE      &kp TILDE  &kp PIPE    &trans
-&trans  &trans   &trans   &trans        &kp DELETE    &kp TAB     &trans  &trans  &trans            &trans     &trans         &trans     &trans      &trans
+&trans  &trans   &trans   &trans                &trans            &trans                                   &trans          &trans            &trans             &trans         &trans     &bootloader
+&trans  &kp F1   &kp F2   &kp F3                &kp F4            &kp F5                                   &kp LA(F4)      &kp PG_UP         &kp UP_ARROW       &kp PAGE_DOWN  &trans     &trans
+&trans  &kp F6   &kp F7   &kp F8                &kp F9            &kp F10                                  &kp LANGUAGE_1  &kp LEFT          &kp DOWN           &kp RIGHT      &trans     &trans
+&trans  &kp F11  &kp F12  &kp LS(LA(NUMBER_4))  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &trans        &trans  &kp LANGUAGE_2  &kp LS(LG(LEFT))  &kp LS(LG(RIGHT))  &mkp LCLK      &mkp RCLK  &trans
+&trans  &trans   &trans   &trans                &trans            &trans             &lt 4 DELETE  &trans  &trans          &trans            &trans             &trans         &mkp MCLK  &trans
             >;
         };
 
         layer_4 {
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
+&trans  &trans  &trans  &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &trans
             >;
         };
     };
