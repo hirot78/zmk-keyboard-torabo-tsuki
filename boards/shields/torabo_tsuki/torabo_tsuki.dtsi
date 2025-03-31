@@ -159,6 +159,5 @@
         // snipe-layers = <1>;
         scroll-layers = <4>;
         // automouse-layer = <1>;
-        polling-rate = <1>;
     };
 };
