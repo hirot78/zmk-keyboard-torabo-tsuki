@@ -61,7 +61,7 @@
         layer_4 {
             bindings = <
 &trans          &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &trans
-&bt BT_CLR_ALL  &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &trans
+&bt BT_CLR_ALL  &trans  &trans  &trans        &trans        &trans                      &trans  &trans  &trans  &trans  &trans       &bootloader
 &trans          &trans  &trans  &trans        &trans        &bt BT_PRV                  &trans  &trans  &trans  &trans  &trans       &trans
 &bt BT_CLR      &trans  &trans  &out OUT_USB  &out OUT_BLE  &bt BT_NXT  &trans  &trans  &trans  &trans  &trans  &trans  &trans       &trans
 &trans          &trans  &trans  &trans        &trans        &trans      &trans  &trans  &trans  &trans  &trans  &trans  &bootloader  &trans
